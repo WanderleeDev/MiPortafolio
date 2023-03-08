@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'neonLights';
+  src: url('../../assets/fonts/neonLights/woff2/NeonLights.woff2') format("woff2"),
+  url('../../assets/fonts/neonLights/woff/NeonLights.woff')  format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'neonRetro';
+  src: url('../../assets/fonts/neonRetro/woff2/NeonRetro.woff2') format("woff2"),
+  url('../../assets/fonts/neonRetro/woff/NeonRetro.woff') format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'tirtoWritter';
+  src: url('../../assets/fonts/titoWrittee/woff2/TirtoWritter.woff2') format("woff2"),
+  url('../../assets/fonts/titoWrittee/woff/TirtoWritter.woff') format("woff");
+  font-display: swap;
+}

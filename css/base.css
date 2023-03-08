@@ -1,0 +1,8 @@
+body{
+  position: relative;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(25rem, 100%), 1fr));
+  grid-template-rows: 6.25rem  repeat(auto-fit,minmax(min(30rem, 100%), 1fr));
+  font-family: var(--letterBasic);
+}

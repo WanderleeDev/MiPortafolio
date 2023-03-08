@@ -1,0 +1,25 @@
+:root {
+/* fuentes */
+  --letterBasic: 'tirtoWritter', serif;
+  --letterTitle: 'neonLights', sans-serif;
+  --letterExtra: 'neonRetro', serif;
+  
+/* colores */
+  --clr-primary: #000;
+  --clr-secondary: #fff;
+  --clr-neonPurpleLights: #fff9fe;
+  --clr-neonPurpleLights: #cd72fe;
+  --clr-neonPurpleDark: #c091d9;
+  --clr-neonSkyBlueLights: #f6ffff;
+  --clr-neonSkyBlue: #9ff0f3bc;
+  --clr-neonSkyBlueDark: #3acbdc;
+  --clr-neonGreenLights: #effaf4;
+  --clr-neonGreen: #2df48d;
+  --clr-neonGreenDark: #029279;--clr-neonYellowLights: #fffbe7;
+  --clr-neonYellow: #ffdd20;
+  --clr-neonYellowDark: #a67169;--clr-neonOrangeLights: #fff9eb;
+  --clr-neonOrange: #ea9d1d;
+  --clr-neonOrangeDark: #dba328;--clr-neonRedLights: #fff6f6;
+  --clr-neonRed: #ef6676;
+  --clr-neonRedDark: #d99894;
+}
