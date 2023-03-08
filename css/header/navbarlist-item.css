@@ -1,7 +1,7 @@
 .navbarList__item{
   position: relative;
   width: max(7rem, 10vw);
-  padding: 1rem;
+  padding: max(0.5rem, 3vh);
   border: solid 0.19rem var(--clr-neonSkyBlueLights);
   text-align: center;
   border-radius: 0.5rem;
@@ -34,10 +34,8 @@
   transform: translateX(98%);
   left: 0;
 }
-.navbarList__item:hover{
-  transform: translate(2rem);
-}
 
+/* animation */
 @keyframes flicker{
   0%,50%,100%{
     box-shadow: inset 1px 1px 1px 1px var(--clr-neonSkyBlueDark),
@@ -77,5 +75,11 @@
     border: solid 0.19rem #bff3f7 ;
     filter: saturate(200%) hue-rotate(20deg);
     opacity: 0.9;
+  }
+}
+/* mediaquery */
+@media (orientation: landscape) {
+  .navbarList__item {
+    padding: max(0.5rem, 2vh);
   }
 }

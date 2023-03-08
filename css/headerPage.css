@@ -1,4 +1,5 @@
 .headerPage{
+  grid-column: span 3;
   /* position: relative; */
   background-color: #7fffd4;
 }
