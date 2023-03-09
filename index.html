@@ -13,6 +13,9 @@
   <!-- header page -->
   <link rel="stylesheet" href="./css/headerPage.css">
   <link rel="stylesheet" href="./css/header/headerPage-navbar.css">
+  <link rel="stylesheet" href="./css/header/headerPage-logo.css">
+  <link rel="stylesheet" href="./css/header/btnMenu.css">
+  <link rel="stylesheet" href="./css/header/btnMenu-item.css">
   <link rel="stylesheet" href="./css/header/navbarlist.css">
   <link rel="stylesheet" href="./css/header/navbarlist-item.css">
   <link rel="stylesheet" href="./css/header/navbarlist-link.css">
@@ -21,12 +24,16 @@
 <body>
   <header class="headerPage">
     <nav class="headerPage__navbar">
+      <img class="headerPage__logo" src="./assets/img/bash.png" alt="logo principal">
+      <button id="menuBtn" class="btnMenu" aria-label="button to display or close the navigation menu">
+        <span class="btnMenu__item"></span>    
+      </button>
       <!-- barra de navegación principal -->
-      <ul class="navbarList">
+      <ul id="navbar" class="navbarList">
         <li class="navbarList__item"><a class="navbarList__link" href="#">Sobre mi</a></li>
-        <li class="navbarList__item navbarlist__item--translateX-100"><a class="navbarList__link" href="#">Skills</a></li>
+        <li class="navbarList__item navbarList__item--translateX-100"><a class="navbarList__link" href="#">Skills</a></li>
         <li class="navbarList__item"><a class="navbarList__link" href="#">Hobbies</a></li>
-        <li class="navbarList__item navbarlist__item--translateX-100"><a class="navbarList__link" href="#">Formación</a></li>
+        <li class="navbarList__item navbarList__item--translateX-100"><a class="navbarList__link" href="#">Formación</a></li>
         <li class="navbarList__item"><a class="navbarList__link" href="#">Proyectos</a></li>
       </ul>
     </nav>
@@ -36,5 +43,5 @@
   <footer>
   </footer>
 </body>
-<script src=""></script>
+<script src="./js/main.js"></script>
 </html>

@@ -1,0 +1,33 @@
+.btnMenu__item{
+  position: relative;
+  display: inline-block;
+  width: 90%;
+  height: 10%;
+  border-radius: 1rem;
+  background-color: var(--clr-neonOff);
+}
+
+.btnMenu__item::before,
+.btnMenu__item.btnMenu__item::after{
+  position: absolute;
+  content: "";
+  inset: 0;
+  border-radius: 1rem;
+  background-color: var(--clr-neonOff);
+}
+
+.btnMenu__item::before{
+  transform: translateY(300%);
+  transform-origin: right center;
+  transition: transform 0.5s linear;
+  box-shadow: 0 0 5px 2px var(--clr-neonSkyBlueLights);
+}
+
+.btnMenu__item::after{
+  transform: translateY(-300%);
+}
+
+.btnMenu:hover .btnMenu__item::before{
+  transform: rotate(-90deg) translateX(-0.3rem) translateY(-0.1rem);
+  background-color: bisque;
+}

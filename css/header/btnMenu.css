@@ -1,0 +1,39 @@
+.btnMenu{
+  display: grid;
+  place-items: center;
+  /* position: absolute; */
+  inset: 0.5rem 0.5rem auto auto;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.2rem;
+  border: 2px solid var(--clr-neonOff);
+  border-radius: 0.5rem ;
+  box-shadow: inset 1px 1px 1px 1px var(--clr-neonSkyBlueDark),
+  inset 2px 2px 15px var(--clr-neonSkyBlue),
+  inset -1px -1px 1px 1px var(--clr-neonSkyBlueDark),
+  inset -2px -2px 15px var(--clr-neonSkyBlue), 1px 1px 1px 1px var(--clr-neonSkyBlueDark),
+  2px 2px 15px var(--clr-neonSkyBlue),
+  -1px -1px 1px 1px var(--clr-neonSkyBlueDark),
+  -2px -2px 15px var(--clr-neonSkyBlue); 
+  color: var(--clr-neonSkyBlueLights);
+  background-color: transparent;
+  animation:  flicker 5s ease-in-out infinite;
+  z-index: 5;
+  cursor: pointer;
+}
+
+/* 300 px */
+@media screen and (min-width: 18.75rem) {
+  .btnMenu{
+    inset: 1rem 1rem auto auto;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+/* 700 px */
+@media screen and (min-width: 43.75rem) {
+  .btnMenu{
+    display: none;
+  }
+}

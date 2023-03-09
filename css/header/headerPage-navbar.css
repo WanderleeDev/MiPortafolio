@@ -1,3 +1,7 @@
 .headerPage__navbar{
-  background-color: aqua;
+  display: flex;
+  height: 6.25rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.5rem;
 }
